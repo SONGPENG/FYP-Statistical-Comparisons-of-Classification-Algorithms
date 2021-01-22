@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HomepageWindow</class>
+ <widget class="QMainWindow" name="HomepageWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>763</width>
+    <height>692</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame_infor">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>460</y>
+      <width>361</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="Line" name="line_v1">
+     <property name="geometry">
+      <rect>
+       <x>-7</x>
+       <y>10</y>
+       <width>20</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>321</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_infor">
+      <item>
+       <widget class="QLabel" name="label_infor1">
+        <property name="text">
+         <string>Classification Hypothesis Testing Tool</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label__infor2">
+        <property name="text">
+         <string>Version 4.2.3</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label__infor3">
+        <property name="text">
+         <string>(c) 2019 - 2020</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label__infor4">
+        <property name="text">
+         <string>Beijing Jiaotong University</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label__infor5">
+        <property name="text">
+         <string>Lancaster University</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label__infor6">
+        <property name="text">
+         <string>Peng Song</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_image">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>401</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_image">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>361</width>
+       <height>311</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>image</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_application">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>10</y>
+      <width>301</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_application">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>111</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Application</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_notice">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>420</y>
+       <width>72</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Notice</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbt_ht">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>50</y>
+       <width>221</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Hypothesis Testing Model</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbt_plot">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>120</y>
+       <width>221</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Generall Evaluation Model</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbt_dr">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>190</y>
+       <width>221</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Dimensionality Reduction</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbt_knn">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>260</y>
+       <width>221</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>kNN - Time Series</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pbt_ex">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>330</y>
+       <width>221</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Expansion</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_v2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>20</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_v3">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>40</y>
+       <width>20</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_h2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>390</y>
+       <width>261</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_h1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>261</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_notice">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>440</y>
+       <width>261</width>
+       <height>171</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>763</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuProgram">
+    <property name="title">
+     <string>Program</string>
+    </property>
+    <addaction name="actionopen"/>
+    <addaction name="actionsave"/>
+    <addaction name="separator"/>
+    <addaction name="actionkNN"/>
+    <addaction name="separator"/>
+    <addaction name="actionexit"/>
+   </widget>
+   <widget class="QMenu" name="menuVisualization">
+    <property name="title">
+     <string>Visualization</string>
+    </property>
+    <widget class="QMenu" name="menubasic_model">
+     <property name="title">
+      <string>basic model</string>
+     </property>
+     <widget class="QMenu" name="menuoverall_view">
+      <property name="title">
+       <string>overall_view</string>
+      </property>
+      <addaction name="actionaccuracy_rate"/>
+      <addaction name="actionrunning_time"/>
+     </widget>
+     <addaction name="menuoverall_view"/>
+     <addaction name="separator"/>
+     <addaction name="actioncritical_distance"/>
+     <addaction name="actionROC"/>
+     <addaction name="actionTexas_sharpshooter"/>
+     <addaction name="actionclassifiers_comparison"/>
+    </widget>
+    <widget class="QMenu" name="menudimensionality_reduction">
+     <property name="title">
+      <string>dimensionality reduction</string>
+     </property>
+     <addaction name="actionAutoencoder"/>
+     <addaction name="actionLDA"/>
+     <addaction name="actionLE"/>
+     <addaction name="actionLPP"/>
+     <addaction name="actionMDS"/>
+     <addaction name="actionPCA"/>
+     <addaction name="actiont_SNE"/>
+    </widget>
+    <addaction name="menubasic_model"/>
+    <addaction name="menudimensionality_reduction"/>
+   </widget>
+   <widget class="QMenu" name="menuHelps">
+    <property name="title">
+     <string>Helps</string>
+    </property>
+    <addaction name="actionHTC_homepage"/>
+    <addaction name="separator"/>
+    <addaction name="actiondata_file_format"/>
+    <addaction name="actiondataset_resource"/>
+    <addaction name="actionalgorithm_reference"/>
+    <addaction name="separator"/>
+    <addaction name="actioncheck_update"/>
+    <addaction name="actioncontact"/>
+   </widget>
+   <addaction name="menuProgram"/>
+   <addaction name="menuVisualization"/>
+   <addaction name="menuHelps"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionopen">
+   <property name="text">
+    <string>open</string>
+   </property>
+  </action>
+  <action name="actionsave">
+   <property name="text">
+    <string>save</string>
+   </property>
+  </action>
+  <action name="actionkNN">
+   <property name="text">
+    <string>kNN</string>
+   </property>
+  </action>
+  <action name="actionexit">
+   <property name="text">
+    <string>exit</string>
+   </property>
+  </action>
+  <action name="actionAutoencoder">
+   <property name="text">
+    <string>Autoencoder</string>
+   </property>
+  </action>
+  <action name="actionLDA">
+   <property name="text">
+    <string>LDA</string>
+   </property>
+  </action>
+  <action name="actionLE">
+   <property name="text">
+    <string>LE</string>
+   </property>
+  </action>
+  <action name="actionLPP">
+   <property name="text">
+    <string>LPP</string>
+   </property>
+  </action>
+  <action name="actionMDS">
+   <property name="text">
+    <string>MDS</string>
+   </property>
+  </action>
+  <action name="actionPCA">
+   <property name="text">
+    <string>PCA</string>
+   </property>
+  </action>
+  <action name="actiont_SNE">
+   <property name="text">
+    <string>t-SNE</string>
+   </property>
+  </action>
+  <action name="actioncritical_distance">
+   <property name="text">
+    <string>critical distance</string>
+   </property>
+  </action>
+  <action name="actionROC">
+   <property name="text">
+    <string>ROC</string>
+   </property>
+  </action>
+  <action name="actionTexas_sharpshooter">
+   <property name="text">
+    <string>Texas sharpshooter</string>
+   </property>
+  </action>
+  <action name="actionclassifiers_comparison">
+   <property name="text">
+    <string>classifiers comparison</string>
+   </property>
+  </action>
+  <action name="actionHTC_homepage">
+   <property name="text">
+    <string>HTC homepage</string>
+   </property>
+  </action>
+  <action name="actiondata_file_format">
+   <property name="text">
+    <string>data file format</string>
+   </property>
+  </action>
+  <action name="actiondataset_resource">
+   <property name="text">
+    <string>dataset resource</string>
+   </property>
+  </action>
+  <action name="actionalgorithm_reference">
+   <property name="text">
+    <string>algorithm reference</string>
+   </property>
+  </action>
+  <action name="actioncheck_update">
+   <property name="text">
+    <string>check update</string>
+   </property>
+  </action>
+  <action name="actioncontact">
+   <property name="text">
+    <string>contact</string>
+   </property>
+  </action>
+  <action name="actionaccuracy_rate">
+   <property name="text">
+    <string>accuracy rate</string>
+   </property>
+  </action>
+  <action name="actionrunning_time">
+   <property name="text">
+    <string>running time</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

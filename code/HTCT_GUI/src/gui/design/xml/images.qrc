@@ -1,0 +1,11 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource>
+<file alias="icon/home.ico">icon/home.ico</file>
+<file alias="icon/homepage.png">icon/homepage.png</file>
+<file alias="icon/qr.jpg">icon/qr.jpg</file>
+<file alias="icon/uu_.png">icon/uu_.png</file>
+<file alias="icon/tianping.png">icon/tianping.png</file>
+<file alias="icon/ht_home.jpg">icon/ht_home.jpg</file>
+</qresource>
+</RCC>

@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>LE module &#8212; HTCT GUI 3.7.9 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">HTCT GUI 3.7.9 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-LE">
+<span id="le-module"></span><h1>LE module<a class="headerlink" href="#module-LE" title="Permalink to this headline">¶</a></h1>
+<p>&#64;File  : LE.py
+&#64;Author: Peng
+&#64;email: <a class="reference external" href="mailto:peng&#46;song&#37;&#52;&#48;bjtu&#46;edu&#46;cn">peng<span>&#46;</span>song<span>&#64;</span>bjtu<span>&#46;</span>edu<span>&#46;</span>cn</a>
+&#64;Date  : 2020/3/10 21:04
+&#64;Desc  :</p>
+<dl class="function">
+<dt id="LE.cal_pairwise_dist">
+<code class="sig-prename descclassname">LE.</code><code class="sig-name descname">cal_pairwise_dist</code><span class="sig-paren">(</span><em class="sig-param">x</em><span class="sig-paren">)</span><a class="headerlink" href="#LE.cal_pairwise_dist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate the pairwise distance, and x is matrix.
+(a-b)^2 = a^2 + b^2 - 2*a*b</p>
+<p>&#64;param x:
+&#64;return:</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="LE.cal_rbf_dist">
+<code class="sig-prename descclassname">LE.</code><code class="sig-name descname">cal_rbf_dist</code><span class="sig-paren">(</span><em class="sig-param">data</em>, <em class="sig-param">n_neighbors=10</em>, <em class="sig-param">t=1</em><span class="sig-paren">)</span><a class="headerlink" href="#LE.cal_rbf_dist" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="LE.le">
+<code class="sig-prename descclassname">LE.</code><code class="sig-name descname">le</code><span class="sig-paren">(</span><em class="sig-param">data</em>, <em class="sig-param">n_dims=2</em>, <em class="sig-param">n_neighbors=5</em>, <em class="sig-param">t=1.0</em><span class="sig-paren">)</span><a class="headerlink" href="#LE.le" title="Permalink to this definition">¶</a></dt>
+<dd><p>&#64;param data: (n_samples, n_features)
+&#64;param n_dims: target dim
+&#64;param n_neighbors: k nearest neighbors
+&#64;param t: a param for rbf
+&#64;return:</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="LE.le_fun">
+<code class="sig-prename descclassname">LE.</code><code class="sig-name descname">le_fun</code><span class="sig-paren">(</span><em class="sig-param">file_path</em>, <em class="sig-param">result_path</em><span class="sig-paren">)</span><a class="headerlink" href="#LE.le_fun" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>file_path</strong> – </p></li>
+<li><p><strong>result_path</strong> – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="LE.rbf">
+<code class="sig-prename descclassname">LE.</code><code class="sig-name descname">rbf</code><span class="sig-paren">(</span><em class="sig-param">dist</em>, <em class="sig-param">t=1.0</em><span class="sig-paren">)</span><a class="headerlink" href="#LE.rbf" title="Permalink to this definition">¶</a></dt>
+<dd><p>rbf kernel function
+&#64;param dist:
+&#64;param t:
+&#64;return:</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/LE.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">HTCT GUI 3.7.9 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Peng Song.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.4.
+    </div>
+  </body>
+</html>
